@@ -1,0 +1,8 @@
+# This is the config file for github
+title: Benjamin Losinski
+email: benlo@live.com
+description: Ben Losinski's Personal Website
+baseurl: "" 
+url: "https://Losinski.github.io/"
+
+theme: jekyll-theme-cayman

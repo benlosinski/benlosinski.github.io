@@ -4,7 +4,24 @@ layout: default
 permalink: /misc/
 order: 4
 ---
+<style>
+* {
+  box-sizing: border-box;
+}
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    
 <h1>The Best Parts</h1>
 
 <div style="min-height: 300px">
